@@ -1,0 +1,48 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.insta{
+    width: 200px;
+    height: 200px;
+    /* background: linear-gradient(purple,blue,orange); */
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    margin-left: 40%;
+    margin-top: 10%;
+    position: relative;
+  }
+  
+  .insta_box{
+    width: 150px;
+    height: 150px;
+    border: 13px solid wheat;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .surcal{
+    width: 80px;
+    height: 80px;
+    border: 10px solid white;
+    border-radius: 50%;
+  }
+  
+  .dot{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    left: 138px;
+  }
+    
